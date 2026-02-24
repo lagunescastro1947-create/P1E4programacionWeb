@@ -3,25 +3,39 @@
 div.contenido{
     width: 100%;
     border: 1px solid gray;
-     overflow: hidden;
+    overflow: hidden;
 }
 
-header, footer {
+header{
     padding: 1em;
-    color: white;
-    background-color: #0d1f22;
+    color: #EAF1E4;
+    background-color: #1F363D;
+    clear: left;
+    overflow: hidden;
+}
+
+footer {
+    padding: 1em;
+    color: #EAF1E4;
+    background-color: #1F363D;
     clear: left;
     text-align: center;
     overflow: hidden;
 }
 
+header img{
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 2em;
+    float: left;
+}
+
 nav {
     width: 100%;
-    float: left;
-    max-width: 160px;
     margin: 0;
     padding: 1em;
     overflow: hidden;
+    background-color: #40798C;
 }
 
 nav a {
@@ -31,21 +45,28 @@ nav a {
 
 nav ol {
     list-style-type: none;
+    margin: 0;
     padding: 0; 
-    color: #3C5233;
-    
+    color: #EAF1E4;
+    overflow:hidden;
+
+}
+
+nav ol li {
+    float: left;
+    margin-right: 30px;
 }
 
 nav ol a{
     text-decoration: none;
-    color: #6F732F;
+    color: #EAF1E4;
 }
 
 article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
+    float: left;
     padding: 1em;
     overflow: hidden;
+    max-width: 800px;
 }
 
 footer ul {
@@ -61,8 +82,53 @@ body {
     margin: 0;
 }
 
+article h1{
+    margin-top: 0;
+}
+
 div.pdf {
     text-align: center;
     color: #254F3E;
+    margin-bottom: 20px;
 }
 
+
+div.inicio {
+    float: right;
+    margin-right: 35px;
+    color: #EAF1E4;
+}
+
+div.incio a{
+    color: #EAF1E4;
+    margin-left: 1em;
+    
+}
+
+article h2{
+    color:#E43F6F;
+}
+
+article b{
+    color: #40798C;
+}
+
+article br, p{
+    color: #333333;
+}
+
+aside{
+    margin-right:100px;
+    float: right;
+    width: 200px;
+    padding: 1em;
+}
+
+aside img {
+    margin-bottom: 2em;
+}
+
+section h1{
+    margin-bottom: 0;
+}
+    

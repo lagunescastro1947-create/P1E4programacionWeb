@@ -1,0 +1,68 @@
+
+
+div.contenido{
+    width: 100%;
+    border: 1px solid gray;
+     overflow: hidden;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #0d1f22;
+    clear: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: #294663;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0; 
+    color: #3C5233;
+    
+}
+
+nav ol a{
+    text-decoration: none;
+    color: #6F732F;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer a{
+    color: #08cbf1;
+}
+
+body {
+    margin: 0;
+}
+
+div.pdf {
+    text-align: center;
+    color: #254F3E;
+}
+
